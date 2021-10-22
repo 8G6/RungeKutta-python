@@ -20,14 +20,14 @@ def check(a,axs,val1,val2):
 
 class RungeKutta4:
 
-    def __init__(self,fun,x_initial,y_initial,z_initial,ss=False,sk=False):
+    def __init__(self,fun,x_initial,y_initial,z_initial):
 
         self.fun        = fun
         self.x          = x_initial
         self.y          = y_initial
         self.z          = z_initial
-        self.show_iter  = ss
-        self.show_KandL = sk
+        self.show_iter  = False
+        self.show_KandL = False
         self.a          = []
         self.percent    = False
     
