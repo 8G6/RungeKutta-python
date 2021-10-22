@@ -11,7 +11,7 @@ rk=RungeKutta4(fun,0,0,3)
 
 rk.show_iter  = True
 rk.show_KandL = True
-rk.percent =True
+# rk.percent    = True
 
 rk.solve(0,50,0.1)
 
